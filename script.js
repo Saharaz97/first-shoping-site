@@ -1,17 +1,11 @@
 const productContainer = document.getElementById("product-container");
 
-const productsList = ["Black Tea", "Green tea"]
+const productsList = ["Black Tea", "Green tea", "Black Coffee",]
 
-
-
-const blackTea = document.createElement("div");
-const greenTea = document.createElement("div");
-
-blackTea.innerHTML = productsList[0];
-greenTea.innerHTML = productsList[1];
-
-blackTea.classList.add("product")
-greenTea.classList.add("product")
-
-productContainer.appendChild(blackTea);
-productContainer.appendChild(greenTea);
+for (let index = 0; index < productsList.length; index++) {
+   
+    const product = document.createElement("div");
+    product.innerHTML = productsList[index];
+    product.classList.add("product")
+    productContainer.appendChild(product);   
+}

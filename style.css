@@ -35,3 +35,27 @@ h1 {
     padding-top: 10px;
     color: #5b5b5b;
 }
+
+.addBtn{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #717456;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img {
+    width: 100%;  
+    height: 320px;  
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
